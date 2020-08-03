@@ -420,6 +420,16 @@ h6{font-size: 16px;}
     .right-column{
         justify-content: center;
     }
+        .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+             'nav-wrapper '
+             'left-column '
+             'right-column'
+       
+        ;
+    
+    }
    
 
    
@@ -435,14 +445,6 @@ h6{font-size: 16px;}
         }
         #preview{
             width: 280px;
-        }
-        .about-me{
-            justify-content:center;
-        }
-        .social-links{
-            justify-content:center;
-    
-        }
         
         .intro-wrapper{
         grid-template-columns: 1fr;
@@ -456,7 +458,7 @@ h6{font-size: 16px;}
     }
     .right-column{
         justify-content: center;
-        width:100%
+        
     }
         .about-wrapper{
             grid-template-columns:1fr;
