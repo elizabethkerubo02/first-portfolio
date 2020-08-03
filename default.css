@@ -420,16 +420,16 @@ h6{font-size: 16px;}
     .right-column{
         justify-content: center;
     }
-        .intro-wrapper{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-             'nav-wrapper '
-             'left-column '
-             'right-column'
-       
-        ;
+    .about-wrapper{
+            grid-template-columns:1fr;
+            grid-template-areas:
+                'about-me'
+                'skills'
+                'social-links'
+                ;
+        }
+        
     
-    }
    
 
    
@@ -464,8 +464,8 @@ h6{font-size: 16px;}
             grid-template-columns:1fr;
             grid-template-areas:
                 'about-me'
-                'social-links'
                 'skills'
+                'social-links'
                 ;
         }
         #social-image{
