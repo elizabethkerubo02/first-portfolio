@@ -310,8 +310,8 @@ h6{font-size: 16px;}
 }
 
 #social_image{
-    width: 400px;
-    height: 350px;  
+    width: 200px;
+    height: 200px;  
     object-fit: cover;
       
 }  
@@ -418,13 +418,7 @@ h6{font-size: 16px;}
     .right-column{
         justify-content: center;
     }
-    .about-wrapper{
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        'about-me'
-        'skills'
-        'social-links';
-    }
+   
 
    
 
@@ -440,13 +434,12 @@ h6{font-size: 16px;}
         #preview{
             width: 280px;
         }
-        .about-wrapper{
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        'about-me'
-        'skills'
-        'social-links';
-    }
+        .about-me{
+            justify-content:center;
+        }
+        .social-links{
+            justify-content:center;
+    
     }
    
 
