@@ -310,10 +310,10 @@ h6{font-size: 16px;}
 }
 
 #social_image{
-    width: 400px;
-    height: 400px;  
+    width: 250px;
+    height: 250px;  
     object-fit: cover;
-    justify-content:center;
+    
       
 }  
 
@@ -466,8 +466,8 @@ h6{font-size: 16px;}
                 ;
         }
         #social-image{
-            width:200px;
-            height:200px;
+            width:100px;
+            height:100px;
         
 }
 
