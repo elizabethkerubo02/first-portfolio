@@ -283,27 +283,27 @@ h6{font-size: 16px;}
 
  .about-wrapper{
     display: grid;
-    grid-template-columns:repeat(auto-fit, 320px);
+    grid-template-columns:1fr 1fr;
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-   
-   
-    
-   
-   
+     grid-template-areas:
+          'about-me  social-links '
+          'skills  social-links' ;
 }
 
 #skills{
     display:flex;
     justify-content: space-evenly;
     background-color:var(--preview-shadow);
+    grid-area:skills;
     
-    align-content: center;
+  
 }
 
 .social-links{
     display: grid;
+    grid-area:social-links;
     align-content: center;
     text-align: center;
    
@@ -317,7 +317,7 @@ h6{font-size: 16px;}
 }  
 
 .about-me{
-    
+    grid-area:about-me;
     background-color: var(--secondaryColor);
    
     
@@ -440,7 +440,31 @@ h6{font-size: 16px;}
         .social-links{
             justify-content:center;
     
+        }
+        
+        .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'nav-wrapper '
+        'left-column '
+        'right-column'
+        ;
+    
     }
+    .right-column{
+        justify-content: center;
+    }
+        .about-wrapper{
+            grid-template-columns:1fr;
+            grid-template-areas:
+                'about-me'
+                'social-links'
+                'skills'
+                ;
+        }
+        
+}
+
    
 
 
