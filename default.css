@@ -283,26 +283,22 @@ h6{font-size: 16px;}
 
  .about-wrapper{
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(320px 1fr));
-    gap: 100px;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
    
    
     
    
-    grid-template-areas:
-    'about-me  social-links '
-    'skills  social-links'
-  
-    ;
+   
 }
 
 #skills{
     display:flex;
     justify-content: space-evenly;
     background-color:var(--preview-shadow);
-    grid-area: skills;
+    
     align-content: center;
 }
 
@@ -310,7 +306,7 @@ h6{font-size: 16px;}
     display: grid;
     align-content: center;
     text-align: center;
-    grid-area: social-links;
+   
 }
 
 #social_image{
@@ -321,7 +317,7 @@ h6{font-size: 16px;}
 }  
 
 .about-me{
-    grid-area: about-me ;
+    
     background-color: var(--secondaryColor);
    
     
